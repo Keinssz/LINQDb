@@ -7,10 +7,30 @@
 -Aggiungere tramite il terminale la libreria.\
 ----
 
-Il comando che ci permette di accedere alla libreria è :\
-SQLiteConnection cn1 ##   
-
+-Il comando che ci permette di accedere alla libreria è :\
+###
+    SQLiteConnection cn1 = new SQLiteConnection("chinook.db");
 ###
 
+-Possiamo selezionare dal DB tramite :\
+###
+    var tblArtist = cn1.Query<Artist>("select * from artists");
+###
+
+-Il comando che ci permette di ordinare gli ID degli artisti è:\
+###
+    var temporanea = tblArtist.OderByDescending(x => x.Name).Max( y => y.ArtistId ) ;
+###    
+
+- In seguito proseguimo con l' utilizzo di un foreach il quale scorre  e scrive i record ed anche il numero dei record presenti:\
+###
+    foreach( var record in tblArtist)
+    {
+      Console.WriteLine($"{record.Name}");
+    }
+    Console.WriteLine($"{temporanea}");
+###
+    
+-Ecco il risultato ottenuto:\
 
 ![image](https://github.com/Keinssz/LINQDb/assets/116791211/97e1196e-659a-4640-8ecb-7f052abc90e1)
