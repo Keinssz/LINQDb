@@ -1,7 +1,7 @@
 # LINQDb
 -Per incominciare dobbiamo creare una cartella con il nome es(.cancellieri.andrea.4h.Linqdb) e successivamente aprirla con Visual studio.\
 -Eseguire nel terminare 'DOTNET NEW CONSOLE'.\
--Ricercare su internet 'chinook.db', scaricare il file e poi inserirlo nella cartella che abbiamo creato in precedenza.\
+-Ricercare su internet '[chinook.db](https://www.sqlitetutorial.net/sqlite-sample-database/)', scaricare il file e poi inserirlo nella cartella che abbiamo creato in precedenza.\
 -Successivamnet iniziamo a compilare il codice.\
 -Ricordarsi di di aggiungere 'Using SQLite'.\
 image
