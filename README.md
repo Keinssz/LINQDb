@@ -1,15 +1,19 @@
 # LINQDb
 -Per incominciare dobbiamo creare una cartella con il nome es(.cancellieri.andrea.4h.Linqdb) e successivamente aprirla con Visual studio.\
--Eseguire nel terminare 'DOTNET NEW CONSOLE'.\
--Ricercare su internet '[chinook.db](https://www.sqlitetutorial.net/sqlite-sample-database/)', scaricare il file e poi inserirlo nella cartella che abbiamo creato in precedenza.\
-Chinook.db è un database che può essere utilizzato come fonte di dati per un'ampia varietà di applicazioni. Il database contiene diverse tabelle che sono correlate tra loro attraverso chiavi esterne, consentendo di accedere ai dati in modo efficiente e preciso.\
 
+-Eseguire nel terminare 'DOTNET NEW CONSOLE'.\
+
+-Ricercare su internet '[chinook.db](https://www.sqlitetutorial.net/sqlite-sample-database/)', scaricare il file e poi inserirlo nella cartella che abbiamo creato in precedenza.\
+Chinook.db è un database che può essere utilizzato come fonte di dati per un'ampia varietà di applicazioni. Il database contiene diverse tabelle che sono correlate tra loro attraverso chiavi esterne, consentendo di accedere ai dati in modo efficiente e preciso.
 
 -Successivamnet iniziamo a compilare il codice.\
+
 -Ricordarsi di di aggiungere 'Using SQLite'.\
+
 -Aggiungere tramite il terminale la libreria.\
 
 PS C:\Users\PC05\Desktop\Cancellieri.andrea.4h.Linqdb> dotnet  add package sqlite-net-pc1\
+
 
 -Il comando che ci permette di accedere alla libreria è :
 ###
